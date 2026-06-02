@@ -113,7 +113,7 @@ public class ZooDigitalApp {
         };
 
         if (animal == null) {
-            System.out.println("[ERRO] Tipo inválido. Animal não cadastrado.");
+            System.out.println("[ERRO] Tipo inválido. Animal não está cadastrado.");
             // Desfaz incremento do contador
             Animal.resetContador();
             // Recria contador manualmente (já foi decrementado pela lógica acima — não instanciou)
