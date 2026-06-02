@@ -18,7 +18,7 @@ public class Cachorro extends Mamifero implements Corrida, Nado, Predacao {
 
     @Override
     public void comer() {
-        System.out.println(getNome() + " está comendo ração.");
+        System.out.println(getNome() + " está comendo sua ração.");
     }
 
     @Override
