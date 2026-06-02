@@ -12,7 +12,7 @@ public class Cobra extends Reptil implements Predacao, Nado {
 
     @Override
     public void emitirSom() {
-        System.out.println(getNome() + " faz: Ssssss! (sibilar)");
+        System.out.println(getNome() + " faz: Sssssss! (sibilar)");
     }
 
     @Override
