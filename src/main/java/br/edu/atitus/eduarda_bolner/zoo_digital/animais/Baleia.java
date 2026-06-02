@@ -12,7 +12,7 @@ public class Baleia extends Mamifero implements Nado {
 
     @Override
     public void emitirSom() {
-        System.out.println(getNome() + " faz: sons graves e melódicos pelas profundezas.");
+        System.out.println(getNome() + " faz: sons graves pelas profundezas.");
     }
 
     @Override
